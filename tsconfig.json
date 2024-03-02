@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "/todo-react/",
     "paths": {
       "@/*": ["./src/*"]
     },
