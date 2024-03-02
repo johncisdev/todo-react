@@ -31,7 +31,7 @@ export function AuthForm() {
               <Input
                 id="username"
                 name="username"
-                placeholder="Type your username"
+                placeholder="Type any username"
                 onChange={(e) => AuthState?.username?.set(e.target.value)}
               />
             </div>
@@ -41,7 +41,7 @@ export function AuthForm() {
                 type="password"
                 id="password"
                 name="password"
-                placeholder="Type your password"
+                placeholder="Type any password"
               />
             </div>
           </div>
